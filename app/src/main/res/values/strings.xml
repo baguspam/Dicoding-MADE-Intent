@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="margin">5dp</string>
+    <string name="padding">10dp</string>
+</resources>

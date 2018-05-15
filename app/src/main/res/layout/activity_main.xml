@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.maspamz.intent.MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PINDAH ACTIVITY"
+                android:layout_marginBottom="@dimen/margin"
+                android:id="@+id/BtnActivity"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PINDAH ACTIVITY DENGAN DATA"
+                android:layout_marginBottom="@dimen/margin"
+                android:id="@+id/BtnActivityData"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PINDAH ACTIVITY DENGAN OBJECT"
+                android:layout_marginBottom="@dimen/margin"
+                android:id="@+id/BtnActivityObject"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PINDAH ACTIVITY UNTUK RESULT"
+                android:layout_marginBottom="@dimen/margin"
+                android:id="@+id/BtnActivityResult"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DIAL A NUMBER"
+                android:layout_marginBottom="@dimen/margin"
+                android:id="@+id/BtnDialNumber"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EMAIL"
+                android:layout_marginBottom="@dimen/margin"
+                android:id="@+id/BtnEmail"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CAMERA"
+                android:layout_marginBottom="@dimen/margin"
+                android:id="@+id/BtnCamera"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hasil dari Activity"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:layout_marginTop="@dimen/margin"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
