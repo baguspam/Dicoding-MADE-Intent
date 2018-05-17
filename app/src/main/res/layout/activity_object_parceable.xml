@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.maspamz.intent.ObjectParceableActivity">
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="@dimen/margin"
+        android:padding="@dimen/padding"
+        android:id="@+id/tv_object_received"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Object Received"/>
+
+</LinearLayout>

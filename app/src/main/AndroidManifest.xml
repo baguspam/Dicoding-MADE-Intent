@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.maspamz.intent">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,7 +21,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".PindahActivity" />
-        <activity android:name=".DataActivity"></activity>
+        <activity android:name=".DataActivity" />
+        <activity android:name=".ObjectParceableActivity" />
+        <activity android:name=".ResultActivity"></activity>
     </application>
 
 </manifest>
